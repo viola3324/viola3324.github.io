@@ -1,0 +1,29 @@
+ 
+.list-item{
+    /* background-color: #d5d5d5; */
+    margin: 15px;
+    padding: 20px;
+
+}
+.list-item:hover{
+    cursor: pointer;
+}
+.active{
+    /* background-color: rgb(255, 216, 164); */
+    color: rgb(211, 66, 13);
+    text-decoration: underline;
+}
+.car-name-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+}
+.car-about{
+    
+    margin: 15px;
+}
+ 
+.car-info div{
+    margin: 10px 0;
+}

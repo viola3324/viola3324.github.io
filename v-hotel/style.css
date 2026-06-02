@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+.logo-img {
+    width: 80px;
+}
+
+
+p {
+    font-family: "Oswald", sans-serif;
+}
+
+
+.nav-link {
+    font-family: "Oswald", sans-serif;
+}
+
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    color: rgb(211, 66, 13);
+    text-align: left;
+}
+
+
+h2 {
+    font-family: "Iosevka Charon", monospace;
+    color: orangered;
+    text-align: left;
+}
+
+
+h3 {
+    font-family: "PT Mono", monospace;
+    color: rgb(211, 66, 13);
+    text-align: left;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#room {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.eeat {
+    margin: 15px;
+}
+
+.atmosfera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.atm-item {
+    border: 1px solid lightgrey;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    /* width: 200px; */
+}
+
+.video {
+    width: 80%;
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 30px 0;
+    color: #000000;
+    background: linear-gradient(to right, rgb(0, 0, 0), #ffffff, rgb(0, 0, 0));
+}
+
+.socio-link {
+    font-size: 2rem;
+    color: #d5d5d5;
+    margin: 10px;
+}
+
+.socio-link:hover {
+    color: white;
+}
